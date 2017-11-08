@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PeriocularRecognition</string>
+    <string name="voltar">Voltar</string>
+    <string name="usu_rio_validado">Usuário validado</string>
+    <string name="usu_rio_n_o_reconhecido">usuário não reconhecido</string>
+</resources>
