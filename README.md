@@ -1,5 +1,18 @@
 # Manual de instalação 
 
+# Instalação do APK
+
+É preciso possuir um celular Android versão **4.4.0**  ou maior para executar o apk.
+
+Caso queira apenas instalar o apk siga os passos abaixo:
+
+1. No seu celular vá em **configurações** e procure pelo menu de **Segurança**.
+2. Procure pela opção de **Fontes desconhecidas** e permita a instalação de APKs.
+3. Baixe o **periocular-release.apk** e coloque-o na pasta downloads do ceu celular.
+4. No celular entre na pasta **Downloads** e clique no APK.
+5. Clique em instalar o APK.
+
+# modificação do código
 
 # Versão das ferramentas utilizadas
 
