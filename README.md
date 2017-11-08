@@ -43,13 +43,13 @@ Primeiramente faça  download da [**versão 3.2 do opencv para android**](https:
 
 1. Abra o **Android Studio** e clique em **New Projcet**
 2. Tenha certeza de marcar a opção **Include C++ Support**:exclamation::exclamation::exclamation:
-3. Continue like all other default android project and in the last step before click on **Finish** you need to set your C++ Standard! i use **Toolchain Default**!
+3. continue o setup normalmente e clique em **Finish** você precisa configurar seu C++ Standard! foi utilizado **Toolchain Default**.
 
-* if you got an exceptin with this message : ``Error:NDK not configured. 
-Download it with SDK manager.)`` you should follow this steps:
+* se você teve a seguinte mensageme : ``Error:NDK not configured. 
+Download it with SDK manager.)`` siga esses passos:
 
-  4. open **Project Structure** under **File** tab.
-  5. set you NDK direction in **Android NDK location** and Done!
+  4. Abra **Project Structure** na aba **File**.
+  5. coloque a localização do NKD no **Android NDK location**.
 
 ### Adicione o módulo do OpenCV Java Wrapper!
 
@@ -108,3 +108,6 @@ include $(BUILD_SHARED_LIBRARY)
 * `{OpenCV.mk_DIR}` : Diretório do arquivo `OpenCV.mk` que fica no diretório do OpenCV SDK `\sdk\native\jni\OpenCV.mk`
 * `{INCLUDE_DIR}` : Diretório da parta include do OpenCV no diretório do OpenCV SDK `\sdk\native\jni\include`
 
+# Integrando a pasta src e o projeto
+
+Para integrar os arquivos deste projeto com o projeto criado acima simplesmente subistitua a pasta src localizada em `$PROJECT_NAME\app` pela pasta disponibilizada neste github.
